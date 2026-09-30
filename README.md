@@ -24,9 +24,9 @@ A deterministic greedy heuristic generates supervision labels by prioritizing hi
 
 To keep the implementation inspectable, this repository implements the normalized GCN operation directly in PyTorch:
 
-[
+$
 H^{(l+1)} = \sigma\left(\hat{D}^{-1/2}\hat{A}\hat{D}^{-1/2}H^{(l)}W^{(l)}\right),
-]
+$
 
 where (\hat{A}=A+I).
 
